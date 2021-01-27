@@ -1,0 +1,37 @@
+table{
+    margin: 100px auto 20px auto;
+}
+tr:nth-child(even) td:nth-child(even){
+    background: red;
+}
+tr:nth-child(odd) td:nth-child(odd){
+    background: red;
+}
+tr:nth-child(odd) td:nth-child(even){
+    font-style: italic;
+    color: blue;
+}
+tr:nth-child(even) td:nth-child(odd){
+    font-style: italic;
+    color: blue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+}
+.change-color{
+    cursor: pointer;
+}
+.button-form{
+    width: 100px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+div.field label {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 15px;
+}
